@@ -37,7 +37,7 @@ public class CaptureScreen {
 		loginBtn.click();
 						
 		FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), new File("./Screenshots/fb_homepage.png"));
-		driver.quit();	
+		//driver.quit();	
 		
 	}
 
